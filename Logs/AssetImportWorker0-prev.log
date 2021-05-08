@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.2.0b11\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/1.Folder/GUH1
+D:/1.Folder/GUH2/GUH2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62959
-Successfully changed project path to: D:/1.Folder/GUH1
-D:/1.Folder/GUH1
+49560
+Successfully changed project path to: D:/1.Folder/GUH2/GUH2
+D:/1.Folder/GUH2/GUH2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b11 (c499c2bf2e80)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/1.Folder/GUH1/Assets
+[Subsystems] Discovering subsystems at path D:/1.Folder/GUH2/GUH2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002553 seconds.
+Registered in 0.002305 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.003 seconds
+- Completed reload, in  2.156 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000538 seconds.
+Registered in 0.000539 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\1.Folder\GUH1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\1.Folder\GUH2\GUH2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
@@ -63,7 +63,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.886 seconds
+- Completed reload, in  0.884 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -71,795 +71,96 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 second
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+System memory in use before: 58.1 MB.
+System memory in use after: 58.1 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1534.
-Total: 2.538900 ms (FindLiveObjects: 0.542400 ms CreateObjectMapping: 0.116300 ms MarkObjects: 1.810200 ms  DeleteObjects: 0.069000 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1537.
+Total: 2.346100 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.106900 ms MarkObjects: 1.749300 ms  DeleteObjects: 0.087300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/body_paint_mat_02.mat
-  artifactKey: Guid(fb4cb46d3663dc349a796305168dee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/body_paint_mat_02.mat using Guid(fb4cb46d3663dc349a796305168dee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ddd6c67b19509320262e910895229e') in 0.288718 seconds
-  Import took 0.423031 seconds .
+  path: Assets/Asset_Aircrafts
+  artifactKey: Guid(f5575045491096841902dc064bb72778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts using Guid(f5575045491096841902dc064bb72778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd576f00432dfc4e0de0c2348affa4bfc') in 0.009648 seconds
+  Import took 0.012530 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_cannon_v01.fbx
-  artifactKey: Guid(5d0277c79705bce4d9c2795080928b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_cannon_v01.fbx using Guid(5d0277c79705bce4d9c2795080928b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd447a28d1a9939b45e29b6b0a2f8703f') in 0.428196 seconds
-  Import took 0.456564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000763 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/front_light_mat.mat
-  artifactKey: Guid(f525b0f683b1b2247a478aad4c2e2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/front_light_mat.mat using Guid(f525b0f683b1b2247a478aad4c2e2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f33999ba17e637bf0f9731967a135e5') in 0.054661 seconds
-  Import took 0.061414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/interior_plastic_mat_01.mat
-  artifactKey: Guid(3c347adc4363a5d4d916c63f99304bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/interior_plastic_mat_01.mat using Guid(3c347adc4363a5d4d916c63f99304bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a67a320c5c8636105f93f5732f9d0d') in 0.026286 seconds
-  Import took 0.028798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/reverse_lights_mat.mat
-  artifactKey: Guid(542ea3c0c8c72834888e365d25d0c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/reverse_lights_mat.mat using Guid(542ea3c0c8c72834888e365d25d0c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2198f45336cd7b67ab691d3ee802e4c3') in 0.015496 seconds
-  Import took 0.018495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/interior_plastic_mat_02.mat
-  artifactKey: Guid(4b4edeafdb252724aa2e9323d4558395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/interior_plastic_mat_02.mat using Guid(4b4edeafdb252724aa2e9323d4558395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db68ce661f8304bf1fc9e3b3baca3d5d') in 0.017594 seconds
-  Import took 0.033686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/body_paint_mat_02.mat
-  artifactKey: Guid(63f9d1073f8d1d948872bc72d891d9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/body_paint_mat_02.mat using Guid(63f9d1073f8d1d948872bc72d891d9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ebae17ce7c3358874c7690535ab95') in 0.012691 seconds
-  Import took 0.019900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/interior_plastic_mat_01.mat
-  artifactKey: Guid(910911d41ca1b0743a342a217455b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/interior_plastic_mat_01.mat using Guid(910911d41ca1b0743a342a217455b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c1eb1a15066a2c63bc9df31702d2f3') in 0.023586 seconds
-  Import took 0.026784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/reverse_lights_mat.mat
-  artifactKey: Guid(218855988cb34244f938af0d615e46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/reverse_lights_mat.mat using Guid(218855988cb34244f938af0d615e46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a822c37969bcf2d6418e9b9e8ff8e9') in 0.016300 seconds
-  Import took 0.019125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/steel_01.mat
-  artifactKey: Guid(44e63325ec7c5c6499dcfa90918ac495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/steel_01.mat using Guid(44e63325ec7c5c6499dcfa90918ac495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a4398ae47431c2c8f548706d9a1f7f') in 0.011711 seconds
-  Import took 0.032533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs
-  artifactKey: Guid(484b10374502906489ff7bae49ebd948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs using Guid(484b10374502906489ff7bae49ebd948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712ac253034067f2fe7b049e3cbfe086') in 0.006755 seconds
-  Import took 0.042694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/body_paint_mat_01.mat
-  artifactKey: Guid(c991d70400a9d234cb3f0115a0c7d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/body_paint_mat_01.mat using Guid(c991d70400a9d234cb3f0115a0c7d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8019bfcf76cfa1b40bc04698fde1bb') in 0.030101 seconds
-  Import took 0.036269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/car_seat_mat_02.mat
-  artifactKey: Guid(633cd5e01bafa714f8c8a1e4e4c93f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/car_seat_mat_02.mat using Guid(633cd5e01bafa714f8c8a1e4e4c93f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e946496b58ee0b2a177718f9b7b6c66f') in 0.012608 seconds
-  Import took 0.014800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/steel_02.mat
-  artifactKey: Guid(9691c5d0bb5806d4ba4712d179690d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/steel_02.mat using Guid(9691c5d0bb5806d4ba4712d179690d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82242b45929a74b5c9cf8cf5a93aecf9') in 0.014791 seconds
-  Import took 0.017687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/car_seat_mat_01.mat
-  artifactKey: Guid(8f4d9324f2287d9428515501c46b7f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/car_seat_mat_01.mat using Guid(8f4d9324f2287d9428515501c46b7f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2a34581df8be7a060e9c61e0990771') in 0.014422 seconds
-  Import took 0.017107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_car_tire_v01.fbx
-  artifactKey: Guid(baea66800197a4d468f613d640bf5553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_car_tire_v01.fbx using Guid(baea66800197a4d468f613d640bf5553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0104fefd5f0469674a7d264a10ee7b') in 0.081555 seconds
-  Import took 0.092588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/wheel_mat.mat
-  artifactKey: Guid(d23c199e4fb06e541b1f1f2025063250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/wheel_mat.mat using Guid(d23c199e4fb06e541b1f1f2025063250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b3d5f9c54926d7ef71eb79b84e92cc') in 0.015905 seconds
-  Import took 0.018810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/tire_mat.mat
-  artifactKey: Guid(1c29a6f13e4908c45aab269a59121502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/tire_mat.mat using Guid(1c29a6f13e4908c45aab269a59121502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89588ad37f8aa9078a824f4b5bf7fd4e') in 0.016871 seconds
-  Import took 0.020543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_rocket_v01.fbx
-  artifactKey: Guid(f5b935e087061904c8e9a3a0cda4a4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_rocket_v01.fbx using Guid(f5b935e087061904c8e9a3a0cda4a4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201df4fb024918f1800b9307edf0672e') in 0.034309 seconds
-  Import took 0.037141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/body_paint_mat_01.mat
-  artifactKey: Guid(68e88beac4dcbb740a49bf6161220c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/body_paint_mat_01.mat using Guid(68e88beac4dcbb740a49bf6161220c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6ed5e5a629fa6eaebb7f3175df6523') in 0.011646 seconds
-  Import took 0.014110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs/toye_car_tire_v01.prefab
-  artifactKey: Guid(6afeb05f0fdcfa740b8f1df15b796d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs/toye_car_tire_v01.prefab using Guid(6afeb05f0fdcfa740b8f1df15b796d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b01e9b2ff29d3730b6baef68c54f3ad') in 0.025067 seconds
-  Import took 0.032411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs/toye_car_v01.prefab
-  artifactKey: Guid(bb2d7edd579a5cf45ac5e123f025936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs/toye_car_v01.prefab using Guid(bb2d7edd579a5cf45ac5e123f025936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb82f83e15807dcb88b33c31420a9af') in 0.331531 seconds
-  Import took 0.334638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/scenes/sample_toye_car.unity
-  artifactKey: Guid(04873788ca0137343ba4c91ae31ea317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/scenes/sample_toye_car.unity using Guid(04873788ca0137343ba4c91ae31ea317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedd869954102b5653f952f6f889183b') in 0.006307 seconds
-  Import took 0.170654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000630 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/interior_plastic_mat_02.mat
-  artifactKey: Guid(746a5c246abb2d5438a29208cf5e2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/interior_plastic_mat_02.mat using Guid(746a5c246abb2d5438a29208cf5e2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edf1ef4095e3e90dceccb5b3f035298') in 0.035178 seconds
-  Import took 0.042075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials
-  artifactKey: Guid(ce79867addd1733499ad3020958db8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials using Guid(ce79867addd1733499ad3020958db8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d17df010451b6631547113f73a920c') in 0.126158 seconds
-  Import took 0.132777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/front_light_mat.mat
-  artifactKey: Guid(0ad83052a57b229409f81b45fe1db299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/front_light_mat.mat using Guid(0ad83052a57b229409f81b45fe1db299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c25061c10f63052433b477d302a80c') in 0.027260 seconds
-  Import took 0.147570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/wheel_mat.mat
-  artifactKey: Guid(0197afe461d3ee2429baa1562646a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/wheel_mat.mat using Guid(0197afe461d3ee2429baa1562646a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793c7a1268cbdd3fc80aa8177105f5c6') in 0.024873 seconds
-  Import took 0.030812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/glass_mat.mat
-  artifactKey: Guid(c7c4a4168f1eb514c8ec36ef32baad7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/glass_mat.mat using Guid(c7c4a4168f1eb514c8ec36ef32baad7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6193e6713d2f416ad9b080bf1139cbad') in 0.016634 seconds
-  Import took 0.055371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/car_seat_mat_01.mat
-  artifactKey: Guid(83ab4430e3b768e47bddc4e5f866c719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/car_seat_mat_01.mat using Guid(83ab4430e3b768e47bddc4e5f866c719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad15ef889a21e36be413f6b1e7a476c5') in 0.012088 seconds
-  Import took 0.014715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials
-  artifactKey: Guid(d8fbd637ac10ea1498be3434961cac42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials using Guid(d8fbd637ac10ea1498be3434961cac42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01b70e8c29f70edcc1afb6072018c21') in 0.006230 seconds
-  Import took 0.063826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/scenes
-  artifactKey: Guid(e10a1a374cdf05e45a19cfc9b1580090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/scenes using Guid(e10a1a374cdf05e45a19cfc9b1580090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccae590d6cc78385bf0942564af544f') in 0.001917 seconds
-  Import took 0.038164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_car_v01.fbx
-  artifactKey: Guid(1c6e2ba037554d34bbd27ac5d2632955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/toye_car_v01.fbx using Guid(1c6e2ba037554d34bbd27ac5d2632955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcde25876d96d3028dcfb841ed5ecad4') in 0.101361 seconds
-  Import took 0.155519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/tire_mat.mat
-  artifactKey: Guid(d5c2bfad2765d2442943456c94beab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/tire_mat.mat using Guid(d5c2bfad2765d2442943456c94beab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efd1999872b754130330ea250a276e0') in 0.019453 seconds
-  Import took 0.023128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs/toye_rocket_v01.prefab
-  artifactKey: Guid(6055b96f0ce59b24b8153d82a619824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/prefabs/toye_rocket_v01.prefab using Guid(6055b96f0ce59b24b8153d82a619824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3391d50263d5548cbbda36d28835dc81') in 0.015941 seconds
-  Import took 0.019096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/car_seat_mat_02.mat
-  artifactKey: Guid(8d8088c7af75dfa44a1ba10c9c943b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/car_seat_mat_02.mat using Guid(8d8088c7af75dfa44a1ba10c9c943b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81f8abbe22605a0400913b30a383faa') in 0.012419 seconds
-  Import took 0.015047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0c77a5d527b7f2a9e56e74943311e2') in 0.006590 seconds
-  Import took 0.020082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/steel_01.mat
-  artifactKey: Guid(31d0cf433cd42854c89079a88e2f7784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/custom_materials/steel_01.mat using Guid(31d0cf433cd42854c89079a88e2f7784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864fad2c73c1575761b0c6586e4b1402') in 0.011896 seconds
-  Import took 0.030426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/glass_mat.mat
-  artifactKey: Guid(7702b148904da7f40a493b4c503ad99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx/Materials/glass_mat.mat using Guid(7702b148904da7f40a493b4c503ad99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abeb30745b7f12d7195225856668123') in 0.006820 seconds
-  Import took 0.009500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx
-  artifactKey: Guid(26c14e56840dc4147ad50a0d24313d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games/aarons_assets/toye_car_v01/mesh_fbx using Guid(26c14e56840dc4147ad50a0d24313d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1968b2884c179dfa46f327a6b270c0d') in 0.006979 seconds
-  Import took 0.009720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.538748 seconds.
-  path: Assets/Asset_Aircrafts/Animation/RotorsTurn.controller
-  artifactKey: Guid(3b22299d879b5480a99c6505b2219218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Animation/RotorsTurn.controller using Guid(3b22299d879b5480a99c6505b2219218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fea983be4565a7234d4506cbd8eb52c') in 0.011837 seconds
-  Import took 0.238484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.508835 seconds.
-  path: Assets/Asset_Aircrafts/FBX/Aircraft_No1.fbx
-  artifactKey: Guid(c394698fd06714f8e96c59e960b679bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/FBX/Aircraft_No1.fbx using Guid(c394698fd06714f8e96c59e960b679bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087de23ff1cf75d38c1846943a666750') in 0.746728 seconds
-  Import took 0.749803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Asset_Aircrafts/FBX/Aircraft_No2.fbx
-  artifactKey: Guid(4179cebd14ad94df884dffa269197416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/FBX/Aircraft_No2.fbx using Guid(4179cebd14ad94df884dffa269197416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd02ad471f5470d48c6e4408f2e3fd7') in 0.051836 seconds
-  Import took 0.083033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Asset_Aircrafts/FBX/Aircraft_No4.fbx
-  artifactKey: Guid(200f68aa208b24bca96d06026540fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/FBX/Aircraft_No4.fbx using Guid(200f68aa208b24bca96d06026540fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4e48c03095f5b5408d75ffa3c86129') in 0.092111 seconds
-  Import took 0.105876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Asset_Aircrafts/FBX/Aircraft_No3.fbx
-  artifactKey: Guid(3df5a1a3441af4e1885f26bccd9f1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/FBX/Aircraft_No3.fbx using Guid(3df5a1a3441af4e1885f26bccd9f1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a73e970121dfbcc58a1e9aa47cc3ce2') in 0.074834 seconds
-  Import took 0.077591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.530986 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft01_Body.mat
-  artifactKey: Guid(5c693966300b140d481dddee952d6d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft01_Body.mat using Guid(5c693966300b140d481dddee952d6d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b282ba91ddc0063c06e24ce72cae6d') in 0.018776 seconds
-  Import took 0.899381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft04_Gun.mat
-  artifactKey: Guid(ca56630d81afd43fe8ea2a234ad63f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft04_Gun.mat using Guid(ca56630d81afd43fe8ea2a234ad63f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bee02981f7fa45dd2741e02ae47da1') in 0.022454 seconds
-  Import took 0.027390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft03_Rotor.mat
-  artifactKey: Guid(b65ef8e25853b4edc93ab0d21454de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft03_Rotor.mat using Guid(b65ef8e25853b4edc93ab0d21454de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b948a94f70e9818e42654e695726cb92') in 0.017836 seconds
-  Import took 0.021163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft04_Rotor.mat
-  artifactKey: Guid(94f9fed41f2d3495d96a714a739959be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft04_Rotor.mat using Guid(94f9fed41f2d3495d96a714a739959be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd3c851b7a736c676e03f61b9175a37') in 0.012724 seconds
-  Import took 0.027901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft03_Gun.mat
-  artifactKey: Guid(05aa32cd751494f4d8c2b5cc8661bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft03_Gun.mat using Guid(05aa32cd751494f4d8c2b5cc8661bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dfdf87d01e7b1aad8212b2a56a2723') in 0.014268 seconds
-  Import took 0.016985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs/Aircraft01.prefab
-  artifactKey: Guid(c2a2f496c021a455b995f8cb1afba538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs/Aircraft01.prefab using Guid(c2a2f496c021a455b995f8cb1afba538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d9fd0eaf004e0477ee6a4f743710db') in 0.055063 seconds
-  Import took 0.058059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs/Aircraft02.prefab
-  artifactKey: Guid(c255b23e5b7e2422cbfa6045207d6de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs/Aircraft02.prefab using Guid(c255b23e5b7e2422cbfa6045207d6de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886e91a4bf50947d139cb9edff3df5d8') in 0.022992 seconds
-  Import took 0.026530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs/Aircraft04.prefab
-  artifactKey: Guid(2367abbc5832f4e91a1e034ae654bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs/Aircraft04.prefab using Guid(2367abbc5832f4e91a1e034ae654bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a34efe608ee678f07fb3df95a34e18') in 0.033235 seconds
-  Import took 0.068458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs/Aircraft03.prefab
-  artifactKey: Guid(5ae646d78b7f84995bcd25cc594784ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs/Aircraft03.prefab using Guid(5ae646d78b7f84995bcd25cc594784ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68096cde16e8d094c814fb4df29f2b46') in 0.027303 seconds
-  Import took 0.030671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft03_Body.mat
-  artifactKey: Guid(2fe55245b6a2745b1a2ba20a83f47037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft03_Body.mat using Guid(2fe55245b6a2745b1a2ba20a83f47037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b012ba28c2ce0ec047c6cba6cdc6343') in 0.016915 seconds
-  Import took 0.035153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs/Aircraft03.prefab
-  artifactKey: Guid(5ae646d78b7f84995bcd25cc594784ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs/Aircraft03.prefab using Guid(5ae646d78b7f84995bcd25cc594784ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68096cde16e8d094c814fb4df29f2b46') in 0.021017 seconds
-  Import took 0.024585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft04_BackRotor.mat
-  artifactKey: Guid(9de84ce602f0c46bd859334f9072d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft04_BackRotor.mat using Guid(9de84ce602f0c46bd859334f9072d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b3ae4f3c5e8a79ea5fc1d4bb79e7c1') in 0.013218 seconds
-  Import took 0.016279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft01_Body.mat
-  artifactKey: Guid(5c693966300b140d481dddee952d6d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft01_Body.mat using Guid(5c693966300b140d481dddee952d6d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b282ba91ddc0063c06e24ce72cae6d') in 0.017731 seconds
-  Import took 0.020671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft02_Body.mat
-  artifactKey: Guid(f923a38c21715467d85c5c85765542e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft02_Body.mat using Guid(f923a38c21715467d85c5c85765542e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e98198f0b143f8c340e3501d3b8a569') in 0.017806 seconds
-  Import took 0.020486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft02_Gun.mat
-  artifactKey: Guid(e0f357ee0ef9a43058a11792ae27ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft02_Gun.mat using Guid(e0f357ee0ef9a43058a11792ae27ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f1df53550f119e65c6cdfbbe9a987a') in 0.014153 seconds
-  Import took 0.016998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft04_Body.mat
-  artifactKey: Guid(f8d3649e98bc3453fa1352ee8b98b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft04_Body.mat using Guid(f8d3649e98bc3453fa1352ee8b98b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a172e653d6468f9eb579c8ed6d17d09') in 0.016972 seconds
-  Import took 0.019598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Asset_Aircrafts/Materials/AirCraft01_Gun.mat
-  artifactKey: Guid(909bec21c0c104ac3b5e0d2a3d4a80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials/AirCraft01_Gun.mat using Guid(909bec21c0c104ac3b5e0d2a3d4a80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb4213193894c92df8943992576c83c') in 0.013509 seconds
-  Import took 0.016219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.391716 seconds.
-  path: Assets/Asset_Aircrafts/Scenes/Aircrafts.unity
-  artifactKey: Guid(224677854978f412398aac5d952a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Scenes/Aircrafts.unity using Guid(224677854978f412398aac5d952a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a2cd213ff3c3a4104dde25fcdc7d32') in 0.007424 seconds
-  Import took 0.214214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.553358 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft01_Body.png
-  artifactKey: Guid(a95b4b7860fa549ca94bb0f764f9a013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft01_Body.png using Guid(a95b4b7860fa549ca94bb0f764f9a013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d709b52c3e249eb9a939387391fe03') in 0.047996 seconds
-  Import took 0.051021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft01_Gun_NRM.png
-  artifactKey: Guid(eb816691a39a143458a98e775f03482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft01_Gun_NRM.png using Guid(eb816691a39a143458a98e775f03482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2825d3c406a0ff36d87aad06b864b4') in 0.017558 seconds
-  Import took 0.030377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_BackRotor_NRM.png
-  artifactKey: Guid(19edcefce424c432b902731e740510d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_BackRotor_NRM.png using Guid(19edcefce424c432b902731e740510d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ae59942a45663d5c1c6a0582daf1e3') in 0.015001 seconds
-  Import took 0.019008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft02_Gun.png
-  artifactKey: Guid(3c76f3a7b3a304d278c28c13c7700664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft02_Gun.png using Guid(3c76f3a7b3a304d278c28c13c7700664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7ea3cd95f7530c838ae10b3b02f0c2') in 0.013766 seconds
-  Import took 0.017283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft01_Body_NRM.png
-  artifactKey: Guid(9c24892118e43456e8e10c51349543fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft01_Body_NRM.png using Guid(9c24892118e43456e8e10c51349543fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bfc24a214751d23be0392e143fc6be') in 0.015252 seconds
-  Import took 0.018340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_Gun_NRM.png
-  artifactKey: Guid(2b7020596c4ca4d68a07d7952a7559f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_Gun_NRM.png using Guid(2b7020596c4ca4d68a07d7952a7559f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61499ffb7322639fe3c436c7217bb491') in 0.011882 seconds
-  Import took 0.014308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft02_Body.png
-  artifactKey: Guid(f9b049c3aeae64ccf801c6d6487c86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft02_Body.png using Guid(f9b049c3aeae64ccf801c6d6487c86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56e8b137be5693f7b0f69982a5b723e') in 0.012129 seconds
-  Import took 0.015061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_Body_NRM.png
-  artifactKey: Guid(fb720b4437f304b95b1d7698b28e97c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_Body_NRM.png using Guid(fb720b4437f304b95b1d7698b28e97c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3291bd1e4677ff67005ba79fea3530a6') in 0.015873 seconds
-  Import took 1.163204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_Body.png
-  artifactKey: Guid(aa86e61d241fb48ba83304869f2ca842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_Body.png using Guid(aa86e61d241fb48ba83304869f2ca842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9487de7d5e5b69d490a9d3e88d378270') in 0.014979 seconds
-  Import took 0.017780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft03_Gun_NRM.png
-  artifactKey: Guid(2bb340865136d4dc7ae46d56a4648440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft03_Gun_NRM.png using Guid(2bb340865136d4dc7ae46d56a4648440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae0d8cd48c96ea9b3a027e6619c41cf') in 0.016291 seconds
-  Import took 0.019429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft02_Body_NRM.png
-  artifactKey: Guid(4f6a7d224fd3d4e00888b6691cde6bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft02_Body_NRM.png using Guid(4f6a7d224fd3d4e00888b6691cde6bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff77d1513700bae75d6d9e0452d003c') in 0.015590 seconds
-  Import took 0.050595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft03_Body.png
-  artifactKey: Guid(62fa28aff16b1403a9820fe49638a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft03_Body.png using Guid(62fa28aff16b1403a9820fe49638a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ea7a381e39be74dfaacbfe14e93915') in 0.012626 seconds
-  Import took 0.015299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft03_Rotor.png
-  artifactKey: Guid(17c577fb1524e42eeae0e5701fa51ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft03_Rotor.png using Guid(17c577fb1524e42eeae0e5701fa51ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe134573ad7f8ba687c9603d0f98fa7') in 0.010551 seconds
-  Import took 0.013454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_Rotor.png
-  artifactKey: Guid(3b71ef1c0dcf6418db87d6212adaafa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_Rotor.png using Guid(3b71ef1c0dcf6418db87d6212adaafa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c165064ccc80cbe327d859e447aaf6e2') in 0.012095 seconds
-  Import took 0.014786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft02_Gun_NRM.png
-  artifactKey: Guid(bff3ba390a84b495f87c03b29104ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft02_Gun_NRM.png using Guid(bff3ba390a84b495f87c03b29104ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83da18f436e7aa924d039106e553728') in 0.013930 seconds
-  Import took 0.017086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_BackRotor.png
-  artifactKey: Guid(0f37b18189e3e469e90e897a228683bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_BackRotor.png using Guid(0f37b18189e3e469e90e897a228683bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74ffa0e811a87d16536ba0c45149d4a') in 0.010134 seconds
-  Import took 0.030191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_Rotor_NRM.png
-  artifactKey: Guid(08461cbd826624dfc9feab2bb6e4d8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_Rotor_NRM.png using Guid(08461cbd826624dfc9feab2bb6e4d8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e53f6c4f5c61d46e85dfa7ad3db5e9') in 0.018912 seconds
-  Import took 0.021388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft01_Gun.png
-  artifactKey: Guid(3e139f8f063d2442fbae4046c929e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft01_Gun.png using Guid(3e139f8f063d2442fbae4046c929e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6457e2c6b46c5d866ec4b85ab2847bbb') in 0.010580 seconds
-  Import took 0.013002 seconds .
+  Time since last request: 105.532932 seconds.
+  path: Assets/Asset_Aircrafts/Animation
+  artifactKey: Guid(330367e83e3eb4a0c928e1c7cbb4960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Animation using Guid(330367e83e3eb4a0c928e1c7cbb4960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd174584e239df1d9b53c303cdb578ee6') in 0.008620 seconds
+  Import took 0.011655 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000251 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft04_Gun.png
-  artifactKey: Guid(495c6b5dc8ad94222bfb609b6180c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft04_Gun.png using Guid(495c6b5dc8ad94222bfb609b6180c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e150d7fac06190dedec308e24652efe3') in 0.012393 seconds
-  Import took 0.015572 seconds .
+  path: Assets/Asset_Aircrafts/Scenes
+  artifactKey: Guid(1381be78feed54e1588b7a27eccbd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Scenes using Guid(1381be78feed54e1588b7a27eccbd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601cea49ab5b50cea003e51217348077') in 0.009583 seconds
+  Import took 0.012764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft03_Body_NRM.png
-  artifactKey: Guid(d6e4d1a63ef3f48d59999d2f8c1874aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft03_Body_NRM.png using Guid(d6e4d1a63ef3f48d59999d2f8c1874aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e1dc2105648d8baede94acf13498b4') in 0.015225 seconds
-  Import took 0.018021 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Asset_Aircrafts/Textures
+  artifactKey: Guid(25ea82f25e8d04090a68ee6325e62d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Textures using Guid(25ea82f25e8d04090a68ee6325e62d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385a94798d0323a4a2f18646674ab59d') in 0.008009 seconds
+  Import took 0.011177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft03_Gun.png
-  artifactKey: Guid(044ffb13d96504e36934f30e59a0b5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft03_Gun.png using Guid(044ffb13d96504e36934f30e59a0b5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e873e76bffc9d9ffe12de4d8876905') in 0.011757 seconds
-  Import took 0.016924 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Asset_Aircrafts/Prefabs
+  artifactKey: Guid(17ff8c6d9c8b54f109090dff786a49f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Prefabs using Guid(17ff8c6d9c8b54f109090dff786a49f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf850366948791f8c6190aa0791ba195') in 0.010997 seconds
+  Import took 0.013726 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000203 seconds.
-  path: Assets/Asset_Aircrafts/Textures/AirCraft03_Rotor_NRM.png
-  artifactKey: Guid(6f8e366b8949143a5a5680ba3208b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures/AirCraft03_Rotor_NRM.png using Guid(6f8e366b8949143a5a5680ba3208b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3960a0ead88188af1eaa4e9be0161a8') in 0.011524 seconds
-  Import took 0.040242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.957968 seconds.
-  path: Assets/Asset_Aircrafts/Animation
-  artifactKey: Guid(330367e83e3eb4a0c928e1c7cbb4960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Animation using Guid(330367e83e3eb4a0c928e1c7cbb4960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea7c47811961e8110c816639bac8399') in 0.008498 seconds
-  Import took 0.011125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Asset_Aircrafts/Scenes
-  artifactKey: Guid(1381be78feed54e1588b7a27eccbd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Scenes using Guid(1381be78feed54e1588b7a27eccbd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f506cb825e1a00ceeafd423969d899') in 0.007118 seconds
-  Import took 0.009571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Asset_Aircrafts/Textures
-  artifactKey: Guid(25ea82f25e8d04090a68ee6325e62d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures using Guid(25ea82f25e8d04090a68ee6325e62d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4e1446268cb3462d17d5bd3e8be7e2') in 0.006476 seconds
-  Import took 0.009299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs
-  artifactKey: Guid(17ff8c6d9c8b54f109090dff786a49f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs using Guid(17ff8c6d9c8b54f109090dff786a49f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0ec12b3699b92ad0f29ff1e5b3f15f') in 0.008142 seconds
-  Import took 0.010924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
   path: Assets/Asset_Aircrafts/Materials
   artifactKey: Guid(4287653791af84a34a9856d8a9fe112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials using Guid(4287653791af84a34a9856d8a9fe112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7bcbd8b7e56b3f38d2032cdc613716') in 0.002191 seconds
-  Import took 0.005646 seconds .
+Start importing Assets/Asset_Aircrafts/Materials using Guid(4287653791af84a34a9856d8a9fe112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855f60cf4683e8f7da7520de92d4075') in 0.008069 seconds
+  Import took 0.010538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
+  Time since last request: 0.000201 seconds.
   path: Assets/Asset_Aircrafts/ReadME_Aircrafts.pdf
   artifactKey: Guid(7c5cabf107e3e4d3eaa86f4a52d4af9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/ReadME_Aircrafts.pdf using Guid(7c5cabf107e3e4d3eaa86f4a52d4af9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4218865f7dda4593afb0523d8220012d') in 0.012049 seconds
-  Import took 0.015148 seconds .
+Start importing Assets/Asset_Aircrafts/ReadME_Aircrafts.pdf using Guid(7c5cabf107e3e4d3eaa86f4a52d4af9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fb4a87405605b24f9df6872f6993f8') in 0.041699 seconds
+  Import took 0.044107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
+  Time since last request: 0.000256 seconds.
   path: Assets/Asset_Aircrafts/FBX
   artifactKey: Guid(35c02d3820b624794b446c56437c2c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/FBX using Guid(35c02d3820b624794b446c56437c2c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d030a09d693ff6cb574e4eae495920d') in 0.007744 seconds
-  Import took 0.010620 seconds .
+Start importing Assets/Asset_Aircrafts/FBX using Guid(35c02d3820b624794b446c56437c2c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036a00fed201678d99a5411e0326f4cc') in 0.009809 seconds
+  Import took 0.013159 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.530112 seconds.
-  path: Assets/Asset_Aircrafts
-  artifactKey: Guid(f5575045491096841902dc064bb72778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts using Guid(f5575045491096841902dc064bb72778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815b1b00811752a071f600b57e68ccf2') in 0.010335 seconds
-  Import took 0.014351 seconds .
+  Time since last request: 2.283101 seconds.
+  path: Assets/Asset_Aircrafts/Scenes/Aircrafts.unity
+  artifactKey: Guid(224677854978f412398aac5d952a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Scenes/Aircrafts.unity using Guid(224677854978f412398aac5d952a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f5814cbe3df60059340c25c354a558') in 0.008632 seconds
+  Import took 0.012209 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Hibby Games
-  artifactKey: Guid(30d23fb23591db74a8f1de45b6ebedcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hibby Games using Guid(30d23fb23591db74a8f1de45b6ebedcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff47bb6067ae75da0e66747f39245e4') in 0.007930 seconds
-  Import took 0.010842 seconds .
+  Time since last request: 3.737007 seconds.
+  path: Assets/Asset_Aircrafts/Scenes/Terrain.prefab
+  artifactKey: Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Scenes/Terrain.prefab using Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5120ff88e4db8be654f5f78223abf') in 0.036286 seconds
+  Import took 0.040541 seconds .
 
 ========================================================================
-Received Prepare
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002290 seconds.
-Symbol file LoadedFromMemory doesn't match image D:\1.Folder\GUH1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 24.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.000552 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\1.Folder\GUH1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 40.6 MB.
-System memory in use after: 40.7 MB.
+Received Import Request.
+  Time since last request: 0.002900 seconds.
+  path: Assets/Asset_Aircrafts/Scenes/Terrain.prefab
+  artifactKey: Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Aircrafts/Scenes/Terrain.prefab using Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5120ff88e4db8be654f5f78223abf') in 0.003613 seconds
+  Import took 0.006288 seconds .
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1587.
-Total: 2.158400 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.743700 ms  DeleteObjects: 0.072900 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
