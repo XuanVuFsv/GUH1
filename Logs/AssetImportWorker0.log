@@ -1,0 +1,311 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.0b11 (c499c2bf2e80) revision 12884418'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.0b11\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/1.Folder/GUH1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57676
+Successfully changed project path to: D:/1.Folder/GUH1
+D:/1.Folder/GUH1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 22.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0b11 (c499c2bf2e80)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/1.Folder/GUH1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2100M (ID=0x11fc)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   25.21.14.2625
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002400 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 26.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.977 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000758 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\1.Folder\GUH1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1532.
+Total: 2.176800 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.748000 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.ide.visualstudio
+  artifactKey: Guid(9db636ca49aa246019dd93b7c8b689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio using Guid(9db636ca49aa246019dd93b7c8b689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215e184e50ddbf44cb926627dcd6cb46') in 0.008287 seconds
+  Import took 0.102373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Packages/com.unity.ext.nunit
+  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2fa07cb629f3519626341d761fe748') in 0.025268 seconds
+  Import took 0.071879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Packages/com.unity.collab-proxy
+  artifactKey: Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy using Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6fd3147363b9243c196e10e33b35ff') in 0.012184 seconds
+  Import took 0.030525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9f459fe1effbf7c4390d2f6b3b3791ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9f459fe1effbf7c4390d2f6b3b3791ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff2316f6b6c90a5fd16cbb46e76fa5d') in 0.011498 seconds
+  Import took 0.015548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Packages/com.unity.ext.nunit/README.md
+  artifactKey: Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/README.md using Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29bc157355e320c5603640dd5451b84') in 0.060281 seconds
+  Import took 0.063812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.unity.ide.vscode
+  artifactKey: Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode using Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe99d2b15df9c8a587ef3f5ee12a936f') in 0.008134 seconds
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001030 seconds.
+  path: Packages/com.unity.test-framework
+  artifactKey: Guid(6023f2b823fc19b4e4a90875281ff117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework using Guid(6023f2b823fc19b4e4a90875281ff117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19994282ab32c805f17c7e4b2dffd3a3') in 0.007181 seconds
+  Import took 0.013978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Packages/com.unity.ugui
+  artifactKey: Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui using Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2218d87bbcfd7cc51463a911eb09f8') in 0.006874 seconds
+  Import took 0.009889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec0f221e18a96ea4daa7e7a1f9744c1') in 0.021043 seconds
+  Import took 0.023751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Packages/com.unity.ext.nunit/net35
+  artifactKey: Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net35 using Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9147f90de9e1f172015f9a2123cf8f3') in 0.007055 seconds
+  Import took 0.010765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Packages/com.unity.ide.rider
+  artifactKey: Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider using Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6225e11e2a718e5cac723193833f3133') in 0.007186 seconds
+  Import took 0.010273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.unity.ext.nunit/LICENSE.md
+  artifactKey: Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/LICENSE.md using Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437df9b17bb4553d0043efd6d49a05f6') in 0.024084 seconds
+  Import took 0.031403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Packages/com.unity.textmeshpro
+  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceace16a1606b144d4d43863280eb06') in 0.006295 seconds
+  Import took 0.008824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Packages/com.unity.ext.nunit/CHANGELOG.md
+  artifactKey: Guid(f49bbe06ffa5ae24abe32abdab430c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/CHANGELOG.md using Guid(f49bbe06ffa5ae24abe32abdab430c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188e6207601d558a1bbb75239f222ac6') in 0.030759 seconds
+  Import took 0.033330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.unity.timeline
+  artifactKey: Guid(a4610cf559d77b9f256416d9ccaeac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline using Guid(a4610cf559d77b9f256416d9ccaeac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f7b7cf9afb29cfa108a22d77c1c490') in 0.006694 seconds
+  Import took 0.024107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.859847 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71d162ad749346126af1411aa0d38b9') in 0.007399 seconds
+  Import took 0.010221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.805803 seconds.
+  path: Assets/Hibby Games/aarons_assets
+  artifactKey: Guid(8919407696a13ba47b7c5668a8ecef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets using Guid(8919407696a13ba47b7c5668a8ecef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204bef6d93086c5abe49f160896e0d45') in 0.006284 seconds
+  Import took 0.009686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.030148 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01
+  artifactKey: Guid(7da235b4d231eeb46b0a30d0aa379488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01 using Guid(7da235b4d231eeb46b0a30d0aa379488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207273ae0266fe008fab8f5a6a945120') in 0.007014 seconds
+  Import took 0.009874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Hibby Games/aarons_assets/toye_car_v01
+  artifactKey: Guid(8e0529b8d4683254895e0c9014b6f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/toye_car_v01 using Guid(8e0529b8d4683254895e0c9014b6f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a788b0c2a064330f75bae3a32486cbf6') in 0.007389 seconds
+  Import took 0.009843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.571762 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx
+  artifactKey: Guid(a50fabd1d8300f548a2ceeb93be86cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx using Guid(a50fabd1d8300f548a2ceeb93be86cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aed9dd35ae6cbf216ef2c02e291ff4a') in 0.006801 seconds
+  Import took 0.009799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/prefabs
+  artifactKey: Guid(566507615aee41148965169244365ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/prefabs using Guid(566507615aee41148965169244365ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2377a91c5d47c1b6c545d178232c0a49') in 0.006987 seconds
+  Import took 0.009408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/scenes
+  artifactKey: Guid(85a671b9129abf14a9baa5116a231f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/scenes using Guid(85a671b9129abf14a9baa5116a231f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd35e6944e487f8ee01930e6b18cff7') in 0.007169 seconds
+  Import took 0.009801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/textures
+  artifactKey: Guid(326778dd1b3ea264da2aa1678701eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/textures using Guid(326778dd1b3ea264da2aa1678701eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702bffd286fc88f9e9aec784736d0510') in 0.007617 seconds
+  Import took 0.029076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.880810 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx/Materials
+  artifactKey: Guid(7a157116557716241a388ccd0b6db148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx/Materials using Guid(7a157116557716241a388ccd0b6db148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337cdf03c9d4dadde0ff5669015ef47f') in 0.006844 seconds
+  Import took 0.009724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx/char_enemy_robot01.fbx
+  artifactKey: Guid(23b2bd5ac12bffc4fb73d4fc9e07648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx/char_enemy_robot01.fbx using Guid(23b2bd5ac12bffc4fb73d4fc9e07648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2010cdea42b05b270ee5a77c24a2b2') in 0.233367 seconds
+  Import took 0.236189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.613735 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx/Materials/char_enemy_robot01.mat
+  artifactKey: Guid(0ec6a9ce78d6c134d9e9bd51d9fa78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/mesh_fbx/Materials/char_enemy_robot01.mat using Guid(0ec6a9ce78d6c134d9e9bd51d9fa78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0ed290c34813a64d58445d706fcde') in 0.202621 seconds
+  Import took 0.206366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.257363 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/prefabs/char_enemy_robot01.prefab
+  artifactKey: Guid(571ea75721d2aa04fae67e4d0b6bdf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/prefabs/char_enemy_robot01.prefab using Guid(571ea75721d2aa04fae67e4d0b6bdf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f7ac6e38b28b571e7c53831fa6cc97') in 0.019067 seconds
+  Import took 0.022283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.063561 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/scenes/sample_char_enemy_robot01.unity
+  artifactKey: Guid(36fb115daacb11541b3f49934b26c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/scenes/sample_char_enemy_robot01.unity using Guid(36fb115daacb11541b3f49934b26c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b19a1bdfefa8cf5cd676c14c453e57') in 0.007412 seconds
+  Import took 0.010541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.976176 seconds.
+  path: Assets/Hibby Games/aarons_assets/char_enemy_robot01/textures/char_enemy_robot01.psd
+  artifactKey: Guid(857079c0896f73844a0f16acdde013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hibby Games/aarons_assets/char_enemy_robot01/textures/char_enemy_robot01.psd using Guid(857079c0896f73844a0f16acdde013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bac769367be8de37e2e88c4ec77cf7') in 0.014984 seconds
+  Import took 0.018383 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
