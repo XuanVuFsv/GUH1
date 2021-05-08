@@ -15,11 +15,11 @@ D:/1.Folder/GUH2/GUH2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49560
+49972
 Successfully changed project path to: D:/1.Folder/GUH2/GUH2
 D:/1.Folder/GUH2/GUH2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b11 (c499c2bf2e80)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/Resources/UnitySubsystems
@@ -35,132 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002305 seconds.
+Registered in 0.004692 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 23.79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.156 seconds
+- Completed reload, in  2.268 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000539 seconds.
+Registered in 0.000686 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\1.Folder\GUH2\GUH2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
+- Completed reload, in  1.051 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.1 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1537.
-Total: 2.346100 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.106900 ms MarkObjects: 1.749300 ms  DeleteObjects: 0.087300 ms)
+Total: 2.119600 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.663800 ms  DeleteObjects: 0.091200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Asset_Aircrafts
-  artifactKey: Guid(f5575045491096841902dc064bb72778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts using Guid(f5575045491096841902dc064bb72778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd576f00432dfc4e0de0c2348affa4bfc') in 0.009648 seconds
-  Import took 0.012530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.532932 seconds.
-  path: Assets/Asset_Aircrafts/Animation
-  artifactKey: Guid(330367e83e3eb4a0c928e1c7cbb4960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Animation using Guid(330367e83e3eb4a0c928e1c7cbb4960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd174584e239df1d9b53c303cdb578ee6') in 0.008620 seconds
-  Import took 0.011655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Asset_Aircrafts/Scenes
-  artifactKey: Guid(1381be78feed54e1588b7a27eccbd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Scenes using Guid(1381be78feed54e1588b7a27eccbd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601cea49ab5b50cea003e51217348077') in 0.009583 seconds
-  Import took 0.012764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Asset_Aircrafts/Textures
-  artifactKey: Guid(25ea82f25e8d04090a68ee6325e62d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Textures using Guid(25ea82f25e8d04090a68ee6325e62d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385a94798d0323a4a2f18646674ab59d') in 0.008009 seconds
-  Import took 0.011177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Asset_Aircrafts/Prefabs
-  artifactKey: Guid(17ff8c6d9c8b54f109090dff786a49f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Prefabs using Guid(17ff8c6d9c8b54f109090dff786a49f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf850366948791f8c6190aa0791ba195') in 0.010997 seconds
-  Import took 0.013726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Asset_Aircrafts/Materials
-  artifactKey: Guid(4287653791af84a34a9856d8a9fe112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Materials using Guid(4287653791af84a34a9856d8a9fe112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855f60cf4683e8f7da7520de92d4075') in 0.008069 seconds
-  Import took 0.010538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Asset_Aircrafts/ReadME_Aircrafts.pdf
-  artifactKey: Guid(7c5cabf107e3e4d3eaa86f4a52d4af9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/ReadME_Aircrafts.pdf using Guid(7c5cabf107e3e4d3eaa86f4a52d4af9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fb4a87405605b24f9df6872f6993f8') in 0.041699 seconds
-  Import took 0.044107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Asset_Aircrafts/FBX
-  artifactKey: Guid(35c02d3820b624794b446c56437c2c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/FBX using Guid(35c02d3820b624794b446c56437c2c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036a00fed201678d99a5411e0326f4cc') in 0.009809 seconds
-  Import took 0.013159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.283101 seconds.
-  path: Assets/Asset_Aircrafts/Scenes/Aircrafts.unity
-  artifactKey: Guid(224677854978f412398aac5d952a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Scenes/Aircrafts.unity using Guid(224677854978f412398aac5d952a979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f5814cbe3df60059340c25c354a558') in 0.008632 seconds
-  Import took 0.012209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.737007 seconds.
-  path: Assets/Asset_Aircrafts/Scenes/Terrain.prefab
-  artifactKey: Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Scenes/Terrain.prefab using Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5120ff88e4db8be654f5f78223abf') in 0.036286 seconds
-  Import took 0.040541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002900 seconds.
-  path: Assets/Asset_Aircrafts/Scenes/Terrain.prefab
-  artifactKey: Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_Aircrafts/Scenes/Terrain.prefab using Guid(8d49ad56b822b9a4080e28102df6b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5120ff88e4db8be654f5f78223abf') in 0.003613 seconds
-  Import took 0.006288 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(a61dff72e3ccd9044b97186b84bd7fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(a61dff72e3ccd9044b97186b84bd7fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f4db39f8399ca4349967a806a9aa48') in 0.052689 seconds
+  Import took 0.055501 seconds .
 
